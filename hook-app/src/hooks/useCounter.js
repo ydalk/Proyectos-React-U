@@ -11,7 +11,7 @@ export const useCounter = ( initialState = 10) => {
   const decrement = ( factor = 1) =>{
     setState( state - factor );
   }
-
+//realiza reset de acuerdo con el valr inicial por defecto sino recibe ningún argumento
   const reset = () =>{
     setState( initialState );
   }
